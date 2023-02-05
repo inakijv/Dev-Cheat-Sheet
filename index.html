@@ -11,11 +11,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:wght@300;400;500;700&family=Red+Hat+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
+  <nav>
+    <div>Dev Cheatsheet</div>
+    <a href="#tableTags">Table Tags</a>
+    <a href="#tableAttributes">Table Attributes</a>
+  </nav>
   <header>
     <h1>HTML Table References</h1>
   </header>
   <main>
-    <h2>Table Tags</h2>
+    <h2 id="tableTags">Table Tags</h2>
     <table>
       <thead>
         <tr>
@@ -68,8 +73,14 @@
           <td>The set of rows defining the footer in a table</td>
         </tr>
       </tbody>
+      <tfoot>
+        <tr>
+          <td><span class="Scroll-to-Top"><a href="#">Go to Top</a></span></td>
+        </tr>
+      <tfoot>
     </table>
-    <h2>Table Attributes</h2>
+    <div class="Scroll-to-Top"><a href="#">Go to Top</a></div>
+    <h2 id="tableAttributes">Table Attributes</h2>
     <table>
       <thead>
         <tr>
@@ -94,6 +105,11 @@
           <td>Defines how many rows a td element should span</td>
         </tr>
       </tbody>
+      <tfoot>
+        <tr>
+          <td><span class="Scroll-to-Top"><a href="#">Go to Top</a></span></td>
+        </tr>
+      <tfoot>
     </table>
   </main>
   <footer>
