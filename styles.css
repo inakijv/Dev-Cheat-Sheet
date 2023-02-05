@@ -20,6 +20,10 @@ h1 {
   text-align: center;
 }
 
+main {
+  max-width: 1100px;
+}
+
 h2 {
   margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
@@ -36,7 +40,7 @@ h2 {
 
 table {
   margin-bottom: 0 48px auto;
-  max-width: 1100px;
+  width: 100%;
   font-family: Inter, sans-serif;
   font-size: 14px;
 }
