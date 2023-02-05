@@ -11,6 +11,34 @@ body {
   color: #232323;
 }
 
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 44px;
+  background-color: wheat;
+}
+
+nav div {
+  margin-right: 24px;
+  padding: 2px 12px;
+  font-family: 'Red Hat Mono', monospace;
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+
+nav a {
+  padding: 2px 12px;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
 h1 {
   margin-bottom: 64px;
   padding-top: 24px;
@@ -75,6 +103,11 @@ tbody td span {
 
 tbody td:last-of-type {
   color: rgba(75, 75, 75, 0.7);
+}
+  
+tfoot .Scroll-to-Top {
+  font-family: Inter, sans-serif;
+  font-size: 13px;
 }
 
 footer {
